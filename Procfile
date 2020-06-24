@@ -1,0 +1,1 @@
+web: gunicorn messenger_chatbot_aldo:app
