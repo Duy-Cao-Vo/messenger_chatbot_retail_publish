@@ -1159,13 +1159,13 @@ def verify_fb_token(token_sent):
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'
 
-PAGE_ACCESS_TOKEN = 'EAAHNymS2EU8BAG1tcFoIZBho71a9Eicce3uCCIfaD3Y8EEKnW5u118fS9w9SkdDb2oRUjAGQr6vsUuGG3qH5cUL4ArDTH9ILzFWsMhyu6pzT8dUKeXAUI7dafg8WxCZBqmtfdZBaxZCLWY7T3buDKVcFaVeJ9gToy8HMZCRay92HC0dmI6SeB'
-VERIFY_TOKEN = 'caoduy123'
+PAGE_ACCESS_TOKEN = 'PAGE ACCESS TOKEN'
+VERIFY_TOKEN = 'supersecretkey'
 
 bot = Bot(PAGE_ACCESS_TOKEN)
 
 # MongoDB
-cluster = MongoClient("mongodb+srv://duyvo:1234@cluster0-0eopm.mongodb.net/test?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb+srv://user:password@cluster0-0eopm.mongodb.net/test?retryWrites=true&w=majority")
 db = cluster.get_database('messenger_chatbot')
 collection1 = db.user_message
 collection2 = db.user_info
