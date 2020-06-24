@@ -1,7 +1,7 @@
 # Messenger chatbot
 
 Project to create a chatbot for retail facebook page
-![Homepage](https://github.com/Duy-Cao-Vo/messenger_chatbot_retail_publish/project_image/messenger_chatbot_1)
+![Homepage](https://github.com/Duy-Cao-Vo/messenger_chatbot_retail_publish/blob/master/project_image/messenger_chatbot_1.PNG)
 
 ## Run on local
 ```
