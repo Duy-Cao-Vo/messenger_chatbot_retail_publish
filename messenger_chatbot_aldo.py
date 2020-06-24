@@ -428,7 +428,7 @@ def find_coodinates(query):
     if len(query) < 13:
         scrape = ['0.0', '0.0']
     else:
-        key = '5096fc9000f8403cadfbdb6291bfce54'
+        key = 'mykey'
         geocoder = OpenCageGeocode(key)
         results = geocoder.geocode(query)
         lat = results[0]['geometry']['lat']
