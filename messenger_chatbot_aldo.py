@@ -51,7 +51,6 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Normal LIB
 import pandas as pd
-import pickle
 import random
 import json
 from datetime import datetime, timedelta, date
